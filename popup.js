@@ -13,6 +13,7 @@ function redirectToUrl(tab) {
   if (!url.includes("sync-youtube")) {
     url = url.replace("youtube", "sync-youtube");  
   }
-
+  
   chrome.tabs.update({url: url, active: true});  
+  window.close();
 }
