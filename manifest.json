@@ -16,7 +16,9 @@
   },
   "permissions": [
      "tabs",
-     "*://*/*",
+     "https://youtube.com/*",
+     "https://sync-video.com/*",
+     "https://sync-youtube.com/*",
      "storage"
    ]
 } 
